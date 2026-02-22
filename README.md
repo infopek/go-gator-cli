@@ -1,5 +1,5 @@
 # Gator CLI
-A guided project on ![Boot.Dev](https://www.boot.dev/) with which you can aggregate blogs, their posts, add RSS feeds, and so on.
+A guided project on [Boot.Dev](https://www.boot.dev/) with which you can aggregate blogs, their posts, add RSS feeds, and so on.
 
 ## Requirements
 - Go (v1.25.4)
@@ -57,3 +57,12 @@ Possible commands:
 - `unfollow`
 - `browse`
 
+## Future Ideas
+- Sorting and filtering options to the `browser` command
+- Pagination to the `browse` command
+- Concurreny to the `agg` command for more frequent fetches
+- `search` command that allows for fuzzy searching of posts
+- Bookmarking or liking posts
+- TUI that allows users to select a post in the terminal and view it in a more readable format
+- HTTP API (and authc/authz) that allows other users to interact with the service remotely
+- Service manager that keeps the `agg` command running in the background and restarts if it crashes
